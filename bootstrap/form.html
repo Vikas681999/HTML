@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Website Layout</title>
 </head>
 
@@ -14,107 +15,173 @@
     <div class="container">
         <form action="#">
             <div class="row">
+
                 <div class="col-6 mt-2 ">
                     <label class="form-label text-white">First Name:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter Name" name="email"
-                        maxlength="10">
-
+                    <input type="text" class="form-control" id="email" placeholder="Enter Name" name="email" required>
+                   
                 </div>
                 <div class=" col-6 mt-2">
                     <label class="form-label text-white">Last Name:</label>
-                    <input type="text" class="form-control" placeholder="Enter Last name" name="pswd">
+                    <input type="text" class="form-control" placeholder="Enter Last name" required>
                 </div>
                 <div class="col-6 mt-2 ">
                     <label class="form-label text-white">Father Name:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter Name" name="email">
+                    <input type="text" class="form-control" id="email" placeholder="Enter Father Name" required>
 
                 </div>
                 <div class=" col-6 mt-2">
                     <label class="form-label text-white">Mother Name:</label>
-                    <input type="text" class="form-control" placeholder="Enter Last name" name="pswd">
+                    <input type="text" class="form-control" placeholder="Enter Mother name" required>
                 </div>
             </div>
             <div class="row mb-">
                 <div class="col-6 mt-2 ">
-                    <label for="pwd" class="form-label text-white">Full/Addrees:</label>
-                    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                    <label class="form-label text-white">Full/Addrees:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
                 </div>
 
                 <div class=" col-6 mt-2">
                     <label for="pwd" class="form-label text-white">State, City, PinCode:</label>
-                    <input type="text" class="form-control mb-2" placeholder="Enter State">
-                    <input type="text" class="form-control mb-2" placeholder="Enter City">
-                    <input type="text" class="form-control" placeholder="Enter pin Code">
+                    <input type="text" class="form-control mb-2" placeholder="Enter State" required>
+                    <input type="text" class="form-control mb-2" placeholder="Enter City" required>
+                    <input type="text" class="form-control" placeholder="Enter pin Code" required>
 
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-6 mt-2">
-                    <label for="pwd" class="form-label text-white">Contact Details:</label>
+                    <label  class="form-label text-white">Contact Details:</label>
                     <input type="text" class="form-control mb-2" placeholder="Enter Mobile Number">
                     <input type="text" class="form-control mb-2" placeholder="Enter Phone Number">
                 </div>
-                
+
                 <div class="col-6 mt-2">
-                    <label for="pwd" class="form-label text-white">Emergency Contact Details:</label>
-                    <input type="text" class="form-control mb-2" placeholder="Contact Person Name">
-                    <input type="text" class="form-control mb-2" placeholder="Mobile_Number">
+                    <label  class="form-label text-white">Emergency Contact Details:</label>
+                    <input type="text" class="form-control mb-2" placeholder="Contact Person Name" required>
+                    <input type="text" class="form-control mb-2" placeholder="Mobile_Number" required>
                 </div>
-               
+
             </div>
 
             <div class="row">
-               
+
                 <div class="col mt-2">
-                    <label for="pwd" class="form-label text-white">DOB :</label>
-                    <input type="date" id="birthday" name="birthday" class="form-control mb-2" placeholder="Enter Mobile Number">
-                   
+                    <label class="form-label text-white">DOB :</label>
+                    <input type="date" id="birthday" name="birthday" class="form-control mb-2"
+                        placeholder="Enter Mobile Number" required>
+
                 </div>
                 <div class="col mt-2">
-                    <label for="pwd" class="form-label text-white">Blood Group :</label>
-                    <select class="form-select">
+                    <label class="form-label text-white">Blood Group :</label>
+                    <select class="form-select" required>
                         <option>Blood group A</option>
                         <option>Blood group B</option>
                         <option>Blood group O</option>
                         <option>Blood group AB</option>
-                      </select>
-                   
+                    </select>
+
                 </div>
-                 
+
                 <div class="col mt-2">
-                    <label for="pwd" class="form-label text-white">PAN NO :</label>
-                    <input type="text" id="birthday" name="birthday" class="form-control mb-2" placeholder="Enter PAN Number">
-                   
-                </div>
-                <div class="col mt-2">
-                    <label for="pwd" class="form-label text-white">Religion :</label>
-                    <input type="text" id="birthday" name="birthday" class="form-control mb-2" placeholder="Enter Religion ">
-                   
+                    <label class="form-label text-white">PAN NO :</label>
+                    <input type="text" id="birthday" name="birthday" class="form-control mb-2"
+                        placeholder="Enter PAN Number" required>
+
                 </div>
                 <div class="col mt-2">
-                    <label for="pwd" class="form-label text-white">Cast :</label>
-                    <input type="text" id="birthday" name="birthday" class="form-control mb-2" placeholder="Enter Cast ">
-                   
+                    <label class="form-label text-white">Religion :</label>
+                    <input type="text" id="birthday" name="birthday" class="form-control mb-2"
+                        placeholder="Enter Religion" required>
+
+                </div>
+                <div class="col mt-2">
+                    <label class="form-label text-white">Cast :</label>
+                    <input type="text" id="birthday" name="birthday" class="form-control mb-2"
+                        placeholder="Enter Cast ">
+
                 </div>
             </div>
-          
-            
-         
-            <div class="form-check mb-3">
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                </label>
+            <div class="row">
+                <div class="col-3 mt-2">
+                    <label class="form-label text-white">Qualification :</label>
+                    <select class="form-select mb-2" required>
+                        <option>Select</option>
+                        <option>Class Xth</option>
+                        <option>class XII th</option>
+                        <option>Graduation</option>
+                        <option>Masters</option>
+                    </select>
+
+                </div>
+                <div class="col mt-2">
+                    <div class="table-responsive">
+                        <table class="table text-white">
+                            <tr>
+                                <th>Degree/School</th>
+                                <th>persenteage %</th>
+                                <th>Year</th>
+
+                            </tr>
+                            <tr>
+                                <td><input type="text" required> </td>
+                                <td><input type="text" required></td>
+                                <td><input type="text" required></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
             </div>
-          
+
+
+            <div class="row ">
+
+                <div class="col-4 ml-3 text-white ">
+                    <div class="row">Gender :
+                        <div class="col">
+                            <input type="radio" id="html" name="fav_language" value="HTML" required >
+                            <label for="html">Men</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS" required>
+                            <label for="css">Woman</label><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 text-white mb-2">
+                    <label for="html">HOBBIES :</label><br>
+                    Drawing
+                    <input type="checkbox" name="Hobby_Drawing" value="Drawing"required />
+                    Singing
+                    <input type="checkbox" name="Hobby_Singing" value="Singing"required />
+                    Dancing
+                    <input type="checkbox" name="Hobby_Dancing" value="Dancing"required />
+                    Sketching
+                    <input type="checkbox" name="Hobby_Cooking" value="Cooking" required/>
+                    <br/>
+                </div>
+
+                <div class="col-2 mb-2 text-white">
+                    <div class="row">Age :
+
+                        <div class="col">
+                            <input type="text" class="form-control"required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="col text-center mb-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </form>
-
-
     </div>
-
     <div class="container1 text-center" style="margin-top: 10px;">
         <a href="overview.html" class="  btn btn-primary">PREVIOUS</a>
-        <a href="offset.html" class="  btn btn-primary">NEXT</a>
+        <a href="layout.html" class="  btn btn-primary">NEXT</a>
     </div>
 
 </body>
