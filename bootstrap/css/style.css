@@ -1,0 +1,62 @@
+body{
+    background-color:slategrey;
+    margin-top: 20px;
+    
+}
+.container{
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.row{
+    border: 1px solid purple;
+}
+.col{
+    border: 1px solid  yellow
+}
+
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+
+
+
+
+#harder{
+    background-color: aqua;
+}
+#menu{
+   background-color: blanchedalmond; 
+}
+
+
+#menu ul{
+    list-style: none;
+    
+}
+#menu ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+#contant{
+    background-color: aquamarine;
+
+}
+#sidbar{
+    background-color: chartreuse;
+    
+}
+#footer{
+    background-color: aqua;
+}
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>JAVAScript Object </title>
+</head>
+<body>
+    <h1 style="text-align: center;">Object</h1>
+<script>
+ document.write("Object " + "<br><br>"); 
+var person = {
+                fname : 'Rahul',
+                lname : 'Sharma',
+                age :   25,
+                email : 'rahul@gmail.com'
+            }
+            document.write("NAME "+person.fname +" "+ person.lname + " <br> AGE " +person.age +"<br> EMAIL "+ person.email + "<br><br>")
+   
+            
+//Array of object            
+document.write("Array Object " + "<br><br>"); 
+
+var student =[
+                {name: 'Rahul', age: 26},
+                {name: 'Neel', age: 24},
+                {name: 'Vikas', age: 24}
+             ];
+
+            for (var a=0; a<student.length; a++)
+                {
+                    document.write(student[a].name + " " + student[a].age + "<br>");
+                }
+
+// for/in loop with loop & object
+document.write("<br>"+"For/in loop with loop & object" + "<br><br>"); 
+ var obj = {
+             fname : "Rahul",
+             lastname : "sharma",
+             Dep : "web Devlopment"
+ };
+    for (var key in obj){
+        document.write(obj[key] + "<br>")
+    }
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+</html>

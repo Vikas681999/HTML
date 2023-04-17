@@ -1,0 +1,101 @@
+<html>
+<head>
+        <title>JS Loops</title>
+
+ <script>   
+ 
+  // create tables for do while looop
+    var n,tab,res;
+
+
+     
+
+    tab=prompt("Enter value for table");
+        n=1;
+        do
+            {
+                res=tab*n;
+                document.write(n+ " X " + tab+ " = "+res+"<br>");
+                n++;
+            }while(n<=10);
+
+         
+            
+            
+    //While loop        
+     document.write("<br>" +"while loops ")    
+      var size=0;      
+     while (size <= 10)
+        {
+            document.write(size + "<br>")
+            size++
+        }
+   
+
+//Nasted loop 
+    document.write("<br>" +"Nested loops with pattern" + "<br>")
+for (var a= 1; a <=5; a++)
+    {
+        for (var b= 1; b <=a; b++)
+        {
+            document.write(b + "")
+        }
+        document.write("<br>")
+    }
+    document.write("<br>")
+    /* output
+        1
+        12
+        123
+        1234
+        12345
+    */
+
+
+    for (var a=1; a<=5; a++)
+    {
+        for (var b=1; b<=a; b++)
+        {
+            document.write(a)
+        }
+        document.write("<br>")
+    }
+    document.write("<br>")
+
+
+    /*Output
+        1
+        22
+        333
+        4444
+        55555
+
+    */
+
+for (var a= 5; a >=1; a--)
+    {
+        for (var b= 1; b <=a; b++)
+        {
+            document.write(a + "")
+        }
+        document.write(" <br>")
+    }
+
+ /*    
+OUTput 
+    55555
+    4444
+    333
+    22
+    1
+*/
+
+    
+</script>
+</head>
+<body>
+
+
+</body>
+
+</html>

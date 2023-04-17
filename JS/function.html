@@ -1,0 +1,61 @@
+  <html>
+<head>
+   <title>Functions</title>
+   
+<script>
+
+    function myfun(){
+
+        document.write("1.  This is example of semple functions" + " <br> ");
+
+    }
+    myfun();
+
+    function Hello(fname, lname){
+     document.write("2. This is example of functions with parameters " + "<br>")   
+     document.write(" Hello " + fname + " " +lname + " <br>") ;
+
+   }
+   Hello("vikas" , "sen");
+   
+   function add(a,b){
+    document.write("3. This is example of functions with parameters with values " + "<br>")   
+    document.write(a + b + "<br>") ;
+
+
+   }
+      
+   add(50,80);
+   
+   // This function is with return value 
+
+    function sum(math, eng, hindi)
+    {    
+        var s = math + eng + hindi;
+        return s
+        
+    }
+
+    function parcentage(tt)
+    {
+        var per = tt/300 * 100;
+        document.write("4. This function is with return value  " + "<br>")
+        document.write(per);
+        
+
+        
+    }
+    var tatol = sum (70,70,70)
+    
+   
+    parcentage(tatol);
+
+    
+  
+
+    
+</script>
+  
+</body>
+
+ </html>

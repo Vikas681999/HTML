@@ -1,0 +1,175 @@
+<html>
+<head>
+        <title>JS Array</title>
+
+        <h1 style="text-align: center;">Array/ Array Method</h1>
+ <script> 
+  
+ // simple array example
+ document.write("This is simple array example " + "<br>");  
+ var ary = [10,20,30,40,50];
+  var sum =0;   
+
+    for (var a= 0; a<=4; a++)
+        {
+            document.write(ary[a] + "<br>");
+            sum = sum +ary[a];
+        }
+            document.write("Total sun : " + sum +"<br> <br>" )
+    
+/// Multdimensional Array
+document.write("This is  Multdimensional Array example " + "<br>"); 
+        var multi = [
+                        ["Rahul sharma","Male",25,],
+                        ["Neel shah","Male",21,],
+                        ["Abhinesh","Male",24,]
+
+        ];
+        for (var a=0; a<3;  a++)
+            {
+                document.write(multi[a] + "<br>")
+            }
+
+
+ // Array method 
+ // 1. sort
+
+ document.write("<br>"  +"Array Method [Sanjay, Aman, Rehaman, Karan] " + "<br><br>" + "1. Sort [This method sort the array elelments in order]"  + "<br>");  
+
+  var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.sort();
+        document.write("output = " + a + "<br> <br>");
+ 
+ // 2. reverse
+
+ document.write("2.Reverse [This method reverse the array value]" + "<br>"); 
+
+ var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.reverse();
+        document.write("output = " + a + "<br> <br>");
+ 
+// 3.POP
+
+document.write("3. POP [IT will delete the last value of array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.pop();
+        document.write("output =" + a + "<br> <br>");
+
+//4.Push     
+document.write("4.Push [IT will add new value at the last index of array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.push("VIKAS");
+        document.write("output =" + a + "<br> <br>");
+
+
+//5.Shift     
+document.write("5.shift [IT will delete the first value of array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.shift();
+        document.write("output = " + a + "<br> <br>");
+
+//6.unshift     
+document.write("6.unshift [IT will Add the value at first index of array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+        a.unshift("VIKAS");
+        document.write("output = "  + a + "<br> <br>");
+
+//7.Concat     
+document.write("7.Concat [ IT will Add the tow arrays value]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ var   b = ["Riya", "Neha", "Pumam"];
+ var  c = a.concat(b);
+        document.write("output = " + c + "<br> <br>");
+
+//8.Join     
+document.write("8.Join [ IT will make one value form many values ]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ var   b = ["Riya", "Neha", "Pumam"];
+ var  c = a.concat(b);
+        document.write("output = " + c + "<br> <br>");
+        var d = c.join(" ");
+        document.write(d + "<br><br>") ;
+
+
+//9.Slice     
+document.write("9.Slice [ IT will  remove the value from any index of array and make new array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ 
+    var b = a.slice(1,3);    
+        document.write("output =" + b + "<br> <br>");
+ 
+ //10.Splice     
+document.write("10.Splice  [ IT will add or delete the value for array]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ 
+    a.splice(1,0,"Vikas","sen"); 
+        document.write("output = " + a + "<br> <br>");
+            
+//11.isArray     
+document.write("11.isArray  [ It will check the varible is array or not]" + "<br>"); 
+
+var a = 20["Sanjay", "Aman", "Rehaman", "Karan"];
+        
+        if (Array.isArray(a))
+        {
+            document.write("This is an Array")
+        }else{
+ 
+            document.write("Output = This is not an array" + "<br> <br>");
+            }
+
+
+ //12. indexOf     
+ document.write("12 indexOf [It wil search the value in array and give index value]" + "<br>"); 
+
+var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ 
+    var b = a.indexOf("Karan")
+        document.write("output = " + b + "<br> <br>");
+
+
+ //13. lastindex
+ document.write("13 lastindex [It wil search the value form the last index of array]" + "<br>");       
+ 
+ var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ 
+    var b = a.lastIndexOf("Rehaman")
+        document.write("output = " + b + "<br> <br>") 
+        
+        
+//13. include
+ document.write("14 include [ It wil search a perticular value in array]" + "<br>");       
+ 
+ var a = ["Sanjay", "Aman", "Rehaman", "Karan"];
+ 
+    var b = a.includes("Rehaman")
+        document.write("output = " + b + "<br> <br>");
+
+ // map
+ document.write("14 Map  ()" + "<br>");
+ 
+            var ary = [10,12,25,66,33]
+            var b = ary.map(test);
+            
+            function test(x)
+            {
+                return x * 2;
+            }
+            document.write(b);
+   
+</script>
+</head>
+<body>
+
+
+</body>
+
+</html>

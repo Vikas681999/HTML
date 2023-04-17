@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>CSS Basic Examples</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+
+    p.image {
+        background-image: url(01.jpg);
+    }
+    h3 {
+        background-image: url("img_tree-png-1.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+       
+
+
+    }
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid; }
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+
+    div.margin {
+        margin: 70px;
+        border: 1px solid;
+    }
+    div.padding {
+        padding: 30px;
+        border: 1px solid;
+    }
+    div.box {
+               
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        text-align: justify;
+    }
+    span.mouse {
+        margin: 70px;
+
+    }
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #cae8ca;
+        border: 2px solid #4CAF50;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 300px;
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+   
+
+</style>
+
+</style>
+
+</head>
+<body>
+
+    <h1 style="background-color:DodgerBlue;">CSS Background Colors</h1>
+    <p style="background-color:Tomato;">Test Background</p>
+    <h1 style="color:Tomato;">CSS Text Color</h1>
+    <h1 style="border:2px solid tomato;">CSS Border Color</h1>
+    <h1>Make transparent colors with RGBA</h1>
+    <h2 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h2>
+    <p class="image">This paragraph has background image</p>
+    <h3>CSS background-position <br>The background-position property is used <br>to specify the position of the background image</h3>
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="mix">A mixed border.</p>
+    
+    <div class="margin">This element has a margin of 70px</div>
+    <div class="padding"> This element has a padding of 70px.</div>
+    
+    <div class="margin">Some Font Awesome icons:<br><br>
+    <i class="fas fa-cloud"></i>
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-car"></i>
+    <i class="fas fa-file"></i>
+    <i class="fas fa-bars"></i>
+</div>
+
+<h3>Mouse over the words to change the cursor</h3>
+    <span class="mouse" style="cursor:auto">auto</span><br>
+    <span class="mouse" style="cursor:crosshair">crosshair</span><br>
+    <span class="mouse" style="cursor:default">default</span><br>
+    <span class="mouse" style="cursor:e-resize">e-resize</span><br>
+    <span class="mouse" style="cursor:help">help</span><br>
+    <span class="mouse" style="cursor:move">move</span><br>
+    <span class="mouse" style="cursor:n-resize">n-resize</span><br>
+    <span class="mouse" style="cursor:ne-resize">ne-resize</span><br>
+    <span class="mouse" style="cursor:nw-resize">nw-resize</span><br>
+    <span class="mouse" style="cursor:pointer">pointer</span><br>
+    <span class="mouse" style="cursor:progress">progress</span><br>
+    <span class="mouse" style="cursor:s-resize">s-resize</span><br>
+    <span class="mouse" style="cursor:se-resize">se-resize</span><br>
+    <span class="mouse" style="cursor:sw-resize">sw-resize</span><br>
+    <span class="mouse" style="cursor:text">text</span><br>
+    <span class="mouse" style="cursor:w-resize">w-resize</span><br>
+    <span class="mouse" style="cursor:wait">wait</span><br>
+
+    <div class="sticky"> This is sticky!</div>
+
+    <div style="padding-bottom:2000px">
+      <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+      <p>Scroll back up to remove the stickyness.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Aff
+       
+        <div class="clearfix">
+        <div class="box" style="background-color:#bbb">
+        <h2>Box 1</h2>
+        <p>Some content, some content, some content</p>
+        </div>
+        <div class="box" style="background-color:#ccc">
+        <h2>Box 2</h2>
+        <p>Some content, some content, some content</p>
+        <p>Some content, some content, some content</p>
+        <p>Some content, some content, some content</p>
+        </div>
+        </div>
+
+</body>
+
+
+
+
+
+
+
+
+</html>

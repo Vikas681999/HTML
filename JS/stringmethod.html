@@ -1,0 +1,210 @@
+<html>
+<head>
+    <title>JS string method</title>
+</head>
+<body>
+   
+
+    <h1 style="text-align: center;">String Method</h1>
+<script>
+// String method 
+ // 1. length
+
+ document.write("<br>"  +"Stirung Method "+"<br>" +"1. Length [Length method returns the length of string]"  + "<br>");  
+
+  var a = "JavaScript is Great language"
+     var b =a.length;
+         document.write("String = " + a + "<br>");
+        document.write("output length = " + b + "<br> <br>");
+ 
+ // 2. toLowerCase
+
+ document.write("2. toLowerCase [It will convert all string in lowercase]" + "<br>"); 
+
+            var a ="JAVASCRIPT IS GREAT LANGUAGE"
+            var b=a.toLowerCase();
+            document.write("String = " + a + "<br>");
+        document.write("output = " + b + "<br> <br>");
+ 
+ 
+ // 3. toUpperCase
+
+ document.write("3. toUpperCase [It will convert all string in Uppercase]" + "<br>"); 
+
+            var a ="javascript is great language"
+            var b=a.toUpperCase();
+            document.write("String = " + a + "<br>");
+        document.write("output = " + b + "<br> <br>");
+ 
+// 4. includes
+
+document.write("4. includes [It will search for value and give return in T/F]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.includes("Great");
+    document.write("String = " + a + "[ search for Great]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 5. Startwith
+
+document.write("5. startsWith [It will search the first world from string & give return in T/F]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.startsWith("Java");
+    document.write("String = " + a + "[ search for Java]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+
+// 6. endsWith
+
+document.write("6. endsWith [It will search the end world from string & give return in T/F]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.endsWith("age");
+    document.write("String = " + a + "[ search for age]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 7. Search
+
+document.write("7. Search [It will also search string but its give value in index value]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.search("is");
+    document.write("String = " + a + "[ search for is]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 8. Match
+
+document.write("8. Match [It will search the string and give value in array]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.match(/Great/g);
+    document.write("String = " + a + "[ search for Great]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 9. Indexof 
+
+document.write("9. indexOf [It will search string &  give value in index value]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.indexOf("language");
+    document.write("String = " + a + "[ search for language]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 10. lastindexOf 
+
+document.write("10. indexOf [It will search string &  give value in index value]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.lastIndexOf("Great");
+    document.write("String = " + a + "[ search for Great]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 11. replace 
+
+document.write("11. replace [It will replace the value]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.replace("JavaScript", "PHP");
+    document.write("String = " + a + "[ Replce JavaScript to PHP]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 12. replace 
+
+document.write("12. Trim [It will remove the space from betweent the string ]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.trim("is");
+    document.write("String = " + a + "[ Trim is]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+
+// 13. CharAt 
+
+document.write("13. charAt [IT will search and give the value from indext value ]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.charAt("4");
+    document.write("String = " + a + "[ Index value is 4]" +"<br>");
+    document.write("output = " + b + "<br> <br>");
+
+// 14. CharAt 
+
+document.write("14. CharcodeAt [IT will search from index value and return keycode ]" + "<br>"); 
+
+    var a ="JavaScript is Great language"
+    var b=a.charCodeAt("2");
+    document.write("String = " + a + "[ Find for 2]" +"<br>");
+    document.write("output = " + b + " is keycode for v"+ "<br><br>");
+
+// 15. fromCharCode 
+
+document.write("15. fromCharCode [it will give the value form code ]" + "<br>"); 
+
+//var a ="JavaScript is Great language"
+    var b=String.fromCharCode("105");
+    document.write("String = " + a + "[ Find for 118]" +"<br>");
+    document.write("output = " + b + " the code is 105"+ "<br><br>");
+
+// 16. Concat 
+
+document.write("16. Concat [IT will join the two string in new variable ]" + "<br>"); 
+
+    var a ="JavaScript is Great language "
+    var b ="PHP is Great language"
+    var c=a.concat(b);
+    document.write("String 1 = " + a +"<br>");
+    document.write("String 2 = " + b +"<br>");
+    document.write("output = " + c + ""+ "<br><br>");
+
+// 17. Split 
+
+document.write("17. Split [It will brack the string in array]" + "<br>"); 
+
+    var a ="JavaScript is Great language "
+
+    var b=a.split(" ");
+    document.write("String = " + a +"<br>");
+
+    document.write("output = " +b + ""+ "<br><br>");
+
+// 18. Split 
+
+document.write("18. repeat [It will repeat the string  ]" + "<br>"); 
+
+    var a ="JavaScript is Great language "
+
+    var b=a.repeat(2);
+    document.write("String = " + a +"<br>");
+
+    document.write("output = " +b + ""+ "<br><br>");
+
+// 19. slice 
+
+document.write("19. slice [It will seach the value from between the string and return that value ]" + "<br>"); 
+
+    var a ="JavaScript is Great language "
+
+    var b=a.slice(5,10);
+    document.write("String " + a + "[ Seach for 3,10]" +"<br>");
+
+    document.write("output = " +b + ""+ "<br><br>");
+//20 Tostring
+    
+document.write("20. ToString [It will convert the value in string]" + "<br>"); 
+
+ //21 Valueof 
+
+ document.write("21. Valueof [It is defult function]" + "<br>"); 
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+</html>
