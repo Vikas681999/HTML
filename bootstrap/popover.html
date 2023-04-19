@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover({
+                html: true,
+                //delay : {"show":1000, "hide":1000}
+            });
+
+        });
+
+    </script>
+
+<script>
+    $ (function(){
+        $("#closebtn").click(function(){
+            $("#redbox").alert('close');
+        })
+    });
+</script>
+
+    <title>Popover/Alert Exmaple </title>
+</head>
+
+<body>
+    <h3 style="text-align: center;" class="text-white">Popover Example</h3>
+    <div class="container">
+        <div class="row py-5 ">
+            <div class="col-md-7" style="text-align: center;">
+                <button class="btn btn-primary" data-placement="left" data-toggle="popover" title="popover title"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id harum, saepe porro
+                    nesciunt doloribus rem? Velit corrupti quisquam ad iure sapiente assumenda molestiae">click
+                    me</button>
+                <button class="btn btn-primary" data-placement="bottom" data-toggle="popover" title="popover title"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id harum, saepe porro
+                    nesciunt doloribus rem? Velit corrupti quisquam ad iure sapiente assumenda molestiae">click
+                    me</button>
+
+                <button class="btn btn-primary" data-placement="right" data-toggle="popover" title="popover title"
+                    data-content="<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id harum, saepe porro
+                    nesciunt doloribus rem? Velit corrupti quisquam ad iure sapiente assumenda molestiae </h5>">click
+                    me</button>
+            </div>
+
+        </div>
+        <div class="row justify-content-center">
+            <h3 style="text-align: center;" class="text-white m-3">Alert Classes Example</h3>
+            <div class="col-md-7">
+                <div class="alert alert-primary ">[Primary] Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda id
+                    harum, saepe
+                    porro
+
+                </div>
+                <div class="alert alert-secondary ">[Secondary] Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda
+                    id harum, saepe
+                    porro
+
+                </div>
+                <div class="alert alert-success ">[Success] Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda id
+                    harum, saepe
+                    porro
+
+                </div>
+                <div class="alert alert-danger ">[Danger] Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda id
+                    harum, saepe
+                    porro
+
+                </div>
+                <div class="alert alert-warning ">[Warning] Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda id
+                    harum, saepe
+                    porro
+
+                </div>
+
+                <div class="alert alert-dark ">[Dark] Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                    id
+                    ,
+                    <button class="close" data-dismiss="alert">
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-7">
+
+                <div id="redbox" class="alert alert-danger">
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque iste eos accusamus! Illo sunt,
+                        nihil id recusandae amet est obcaecati, sit natus voluptatem aspernatur dolorum voluptatum
+                        ducimus possimus nobis odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                        necessitatibus, voluptates minus veritatis quia repellendus dolor ipsum alias consequatur
+                        voluptate tempora at eligendi impedit temporibus aspernatur libero ut? Nisi, id.</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nihil earum odio est labore eos
+                        temporibus cupiditate, dolorem sit.</p>
+                </div>
+                <button id="closebtn" class="btn btn-danger" > Close</button>
+
+            </div>
+
+        </div>
+        <div class="container1 text-center mb-2" style="margin-top: 10px;">
+            <a href="mediaobject.html" class="  btn btn-primary">PREVIOUS</a>
+            <a href="tap.html" class="  btn btn-primary">NEXT</a>
+        </div>
+</body>
+
+</html>

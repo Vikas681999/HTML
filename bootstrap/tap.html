@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('.toast').toast();
+        });
+    </script>
+
+    <title>BS Tap/ Exmaple </title>
+</head>
+
+<body>
+    <h3 style="text-align: center;" class="text-white">Tab class Example</h3>
+    <div class="container">
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-6">
+                <ul class="nav nav-tab" id="myTab">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#Profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#service">Service</a>
+                    </li>
+                </ul>
+                <div class="tab-content py-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. Soluta eius, voluptate, ipsum debitis nostrum dolore ab numquam porro aspernatur,
+                        laboriosam in vel. Maxime?
+                    </div>
+                    <div class="tab-pane fade" id="Profile">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="tab-pane fade" id="service">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. ?
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills" id="pills-tab">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home1">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#Profile1">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#service1">Service</a>
+                    </li>
+                </ul>
+                <div class="tab-content py-3" id="pills-tab">
+                    <div class="tab-pane fade show active" id="home1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. Soluta eius, voluptate, ipsum debitis nostrum dolore ab numquam porro aspernatur,
+                        laboriosam in vel. Maxime?
+                    </div>
+                    <div class="tab-pane fade" id="Profile1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="tab-pane fade" id="service1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. ?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <ul class="nav nav-pills flex-column" id="vertical-tab">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home2">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#Profile2">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#service2">Service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9">
+
+                <div class="tab-content py-3" id="vertical-Tabcontent">
+                    <div class="tab-pane fade show active" id="home2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. Soluta eius, voluptate, ipsum debitis nostrum dolore ab numquam porro aspernatur,
+                        laboriosam in vel. Maxime?
+                    </div>
+                    <div class="tab-pane fade" id="Profile2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="tab-pane fade" id="service2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita amet vero, eligendi
+                        ea excepturi. ?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 style="text-align: center;" class="text-white mt-5">Toast Example</h3>
+        <div class="row py-3">
+            <div class="col">
+                <div class="toast show">
+                    <div class="toast-header">
+                        <img style="margin-right: 1%;" src="img/user.png" alt="">
+                        <b class="mr-auto ml-5" style="margin-right: 150px;">Toast Sample</b>
+                        <button class="close ml-2" data-dismiss="toast">
+                            <span>&times;</Span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, obcaecati.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="container1 text-center mb-2" style="margin-top: 10px;">
+        <a href="popover.html" class="  btn btn-primary">PREVIOUS</a>
+        <a href="scrollspy.html" class="  btn btn-primary">NEXT</a>
+    </div>
+</body>
+
+</html>
