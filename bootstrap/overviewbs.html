@@ -1,147 +1,86 @@
-Bootstrap
+<!DOCTYPE html>
+<html lang="en">
 
--Container  
-        -- .Container
-        -- .Container-Fulit
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Row/COl</title>
+</head>
 
-        Responsive 
-        -- .Container-sm/md/lg/xl (Backpoints)
+<body>
+    
 
--Typoptaphy
-        -- .leand
-        -- .text-start
-        -- .text-break
-        -- .text-center
-        -- .text-decoration-none
-        -- .text-end
-        -- .text-nowrap
-        -- .text-uppercase
-        -- .text-lowercase
-        -- .text-capitalized
-        -- .initialism
-        -- .list-unstyled
-        -- .list-inline
- 
--Color
-    -Text.Backgraund,Border Color
-        - .text-muted
-        - .text-primary
-        - .text-seccess
-        - .text-info
-        - .text-warning 
-        - .text-danger
-        - .text-secondary
-        - .text.white
-        - .text-dark
-        - .text-body
-        - .text-light
+    <div class="container p-5 my-5 border">
+        <h3 style="text-align: center;">Container</h3>
+    </div>
+    <div class="Container-Fulit p-5 my-5 bg-dark text-white">
 
- -Table
-        - .table
-        - .table-striped
-        - .table-bordered
-        - .table-hover
-        - .table-dark
-        - .table-borderless
-        
-        - All Contextual classes (primary,success,info,warning,active,secondary,light,dark)
-
- -Image
-        - Rounded
-        - Circle
-        - Thumbnail 
+        <h3 style="text-align: center;"> Container-Fulit</h3>
+        <p style="text-align: center;">For Full width</p>
+    </div>
 
 
- -Jumbotron         
+    <div class="container">
+        <h3 style="text-align: center;">Row/COl</h3>
+        <h6>1.white color is Containers <span class="badge" style="background-color: white;">White</span></h6>
+        <h6>2.Yellow color is Columns <span class="badge" style="background-color: yellow;">Yellow</span></h6>
+        <h6>3.purple color is Rows <span class="badge" style="background-color: purple;">purple</span></h6>
+    </div>
+    <div class="container">
 
--Alert 
-        - .alert
-        - .alert-link
-        - .alert-dismissible
-        - .fade
-        - .show
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 2</div>
+            <div class="col">Col 3</div>
+            <div class="col">Col 4</div>
+            <div class="col">Col 5</div>
+            <div class="col">Col 6</div>
 
- -Button
-        - .btn
-        - .btn (All Contextual classes) 
-        - .btn-lg
-        - .btn-sm
-        - .btn-block
-        - Active
-        - Disabled
-
--Spinner Button
-        - .spinner
-        - .btn-group
-        - .spinner-border
-
- -Badge       
-        - .badge (All Contextual classes)        
-
--Progrees Bar
-        - .progress
-        - .progrees-bar
-
--Pagination
-        - .pagination
-        - .page-item
-        - .page-link
-
-        -Alignment
-                - justify-content-center
-                - justify-content-end
-
--Breadcrumbs
-        -breadcrumb-item
-
--List Groups
-        - .list-group
-        - .list-group-item
-        - .list-group-action
-        - .list-group-flush
-        - .list-group-numbered
-        - .list-group-horizontal
-        - (with All contextual Classes)
-
- -Cards
-        - .card
-        - .card-header
-        - .card-footer
-        - .contextual card class
-        - .card-title
-        - .card-link
-        - .card-img / Top,Bottom 
-        - .card-img-overlay
-
--Dropdown
--Collapsible
--Nav
--Navbar
--Carousel
-        - .carousel-indicators
-        - .carousel-inner
-        - .carousel-item
-        - .carousel-control-prev
-        - .carousel-control-next
-        - .carousel-control-prev-icon
-        - .carousel-control-next-icon
-
--Modal
-        - .modal
-        - .modal-dialog
-        - .modal-content
-        - .modal-header
-        - .modal-title
-        - .modal-body
-        - .modal-footer
-        - .modal-fullscreen
-        - .modal-scrollable
-        
--Tooltip
--Popover
--Toast
--Scrollspy
--Offcanver
-        
+        </div>
+        <div class="row">Row 4 </div>
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 2</div>
+            <div class="col">Col 3</div>
+            <div class="col">Col 4</div>
+            <div class="col">Col 5</div>
+            <div class="col">Col 6</div>
+            <div class="col">Col 7</div>
+            <div class="col">Col 8</div>
+            <div class="col">Col 9</div>
+            <div class="col">Col 10</div>
+            <div class="col">Col 11</div>
+            <div class="col">Col 12</div>
+        </div>
 
 
+        <div class="row">
+            <div class="col-8">By default, containers have left and right padding, with no top or bottom padding.
+                Therefore, we often use spacing utilities, such as extra padding and margins to make them look even
+                better. For example, .pt-5 means "add a large top padding":</div>
+            <div class="col-4">By default, containers have left and right padding, with no top or bottom padding.
+                Therefore, we often use spacing utilities, such as extra padding and margins to make them look even
+                better. For example, .pt-5 means "add a large top padding":</div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">By default, containers have left and right padding, with no top or bottom padding.
+                Therefore, we often use spacing utilities, such as extra padding and margins to make them look even
+                better. For example, .pt-5 means "add a large top padding":</div>
+            <div class="col-9">By default, containers have left and right padding, with no top or bottom padding.
+                Therefore, we often use spacing utilities, such as extra padding and margins to make them look even
+                better. For example, .pt-5 means "add a large top padding":</div>
+        </div>
+    </div>
+    <div class="container1 text-center" style="margin: 10px;">
+        <a href="overview.html" class=" nextbtn btn btn-primary">NEXT</a>
+    </div>
+
+
+
+</body>
+
+</html>
