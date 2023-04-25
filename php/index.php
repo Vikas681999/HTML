@@ -71,5 +71,28 @@
     - Function
     - Function With parameters
     - Function With Returning Value
+    - Function With Arguments
+    - Variable function
+    - Recursive function
+    
+- Global & Local Variable
+- Array
+    - Indexed Arrat
+    - Associative Array
+    - Multidimensional Array
 
+
+- Date and Time
+    -     
+
+- Include & Require
+- Super Global Variable
+    - $_SERVER
+    - $_REQUEST
+    - $_POST
+    - $_GET
+    - $_FILES
+    - $_ENV
+    - $_COOKIE
+    - $_SESSION    
 
