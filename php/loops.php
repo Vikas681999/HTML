@@ -21,14 +21,14 @@
 
     }while ($x <=10);
 
-    echo"<h3>2.For loop</h3>";   
+    echo"<h3>3.For loop</h3>";   
 
-    for($a=1; $a<=20; $a++)
+    for($a=1; $a<=15; $a++)
     {
         echo $a.".) This is for loop<br>";
     }
 
-    echo"<h3>2.Nested loop</h3>";  
+    echo"<h3>4.Nested loop</h3>";  
 
     for ($a=1; $a<=100; $a=$a+ 10)
     {
