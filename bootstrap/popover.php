@@ -52,7 +52,7 @@
                     <textarea readonly class="justify-content-end border border-0 " id="w3review" name="w3review" rows="10" cols="70 ">
 
 
-                                    <div class="alert alert-primary" role="alert">
+                    <div class="alert alert-primary" role="alert">
                         <strong>Well done!</strong> You successfully read this
                         important alert message.
                     </div>
