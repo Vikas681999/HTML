@@ -226,7 +226,6 @@
             })
 
         });
-
         //Search
 
         $("#search").on("keyup",function(){

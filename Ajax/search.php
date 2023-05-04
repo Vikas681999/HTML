@@ -3,8 +3,6 @@
 include "connect.php";
 
 $search_value = $_POST["search"];
-
-
 $sql = "select * from student where s_first_name LIKE '%{$search_value}%' OR s_last_name LIKE '%{$search_value}%'";
 $re = mysqli_query($conn, $sql);
 $output  ="";
