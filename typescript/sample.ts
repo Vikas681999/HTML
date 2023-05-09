@@ -10,7 +10,6 @@ let a1 = new app();
 a1.test()
 
 //Array
-
 let data = ['Neel', 'Rahul', 'Vikas']
 
     //Adding new value In Array
@@ -19,7 +18,6 @@ console.log(data)
 
 
 //Objest
-
 //Define data type with interface
     interface userType
     {
@@ -41,12 +39,10 @@ console.log(user)
 
 
 //Union Types
-
 let data1:string|number|boolean = "Vikas"
 
     data1=30;
     //data1 = true
-
     console.log(data1)
 
  //Interface 
@@ -78,12 +74,12 @@ function cal()
 
 //Classed 
 
-class App{
+class App1{
     name="Vikas Sen"
     getName1()
     {
         console.log(this.name);
     }
 }
-let a1= new App();
-a1.getName1();
+let a2= new App1();
+a2.getName1()

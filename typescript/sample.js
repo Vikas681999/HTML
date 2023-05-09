@@ -43,14 +43,14 @@ function cal() {
 }
 console.log(cal());
 //Classed 
-var App = /** @class */ (function () {
-    function App() {
+var App1 = /** @class */ (function () {
+    function App1() {
         this.name = "Vikas Sen";
     }
-    App.prototype.getName1 = function () {
+    App1.prototype.getName1 = function () {
         console.log(this.name);
     };
-    return App;
+    return App1;
 }());
-var a1 = new App();
-a1.getName1();
+var a2 = new App1();
+a2.getName1();

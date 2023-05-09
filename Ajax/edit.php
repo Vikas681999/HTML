@@ -24,11 +24,13 @@ if (mysqli_num_rows($re) > 0 )
                     </tr>
                     <tr>
                         <td>Last Name</td>
-                        <td><input type='text' id='edit-lname' value='{$rt['s_last_name']}'></td>
+                        <td style='padding-top: 15px;'><input type='text' id='edit-lname' value='{$rt['s_last_name']}'></td>
+                        
                     </tr>
                     <tr>
                     <td></td>
-                        <td><input type='submit' id='edit-submit' value='save' ></td>
+                    
+                        <td style='padding-top: 15px;'><input class='btn btn-success' type='submit' id='edit-submit' value='save'></td>
                     </tr>";
                 }
              

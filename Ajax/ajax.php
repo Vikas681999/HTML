@@ -9,10 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
+    
 
-
-
+    <!-- For Icon class I have use this files to include -->
+       
 
 
     <title>Add Update for Ajax</title>
@@ -27,7 +29,10 @@
     <div class="container">
         <div class="row">
             <div class="col mt-3 bg-warning ">
-                <h3 style="text-align: center;">Add Records with PHP & Ajax</h3>
+                <h3 style="text-align: center;">Add Records with PHP & Ajax
+                <embed src="pencil-square.svg"/>
+</h3>
+                
             </div>
         </div>
 
@@ -47,7 +52,9 @@
             <div class="col bg-primary d-flex justify-content-start p-2"> 
                 
                 <label>Search</label>
-                <input type="text" class="mx-2" id="search" autocomplet="off"  >
+                
+                <input type="text" class="mx-2" id="search" autocomplet="off">
+                
                  </form> 
             </div>
             
@@ -57,7 +64,7 @@
                  <table id="table-data" class="table table-hover">
 
                 </table>
-                 
+                
                 <div id="error-message"></div>
                 <div id="success-message"></div>
 
@@ -65,8 +72,10 @@
             <div id="modal">
                 <div id="modal-form">
 
-                    <h3> Edit Form</h3>
+                    <h3> Edit Form 
                     
+                    </h3>
+                   
                     <table cellpadding="10px" width="100%">
                           
                     </table>
